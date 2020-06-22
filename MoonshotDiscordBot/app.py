@@ -6,7 +6,7 @@ import random
 
 import cogs.voting
 
-TOKEN = 'NzI0NjU4MDUwMDk4NjU5NDMw.XvDYxw.xCIy98zDs7xthKZhYHDSPLlQJdc'
+TOKEN = ''
 
 bot = cmd.Bot(command_prefix='!', case_insensitive=True)
 
