@@ -1,0 +1,14 @@
+Cogs:
+    Music:
+        Lavalink:
+            host: "localhost"
+            port: 2333
+            password: "enebzdiscord"
+            region: "eu"
+            name: "default-node"
+    
+    Fun:
+        POOP:
+            Title: "Poop scale for {name}!" # Parameters: [{name}, {poop}]
+            Message: "{name} is {poop} / 10 on the poop-scale!" # Parameters: [{name}, {poop}]
+            Exceptions: {273914304984514572: 11} # Parameters [{id: amount}]
