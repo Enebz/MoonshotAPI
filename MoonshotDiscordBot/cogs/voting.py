@@ -64,7 +64,7 @@ class Voting(commands.Cog):
   
         c = Counter(teams_votes) 
 
-        # Finding 3 highest values 
+        # Finding length highest values 
         high = c.most_common(length)
 
         embed = GenerateEmbed(ctx, "Leaderboard: Top " + str(length), "Beapirate voting leaderboards!", 0xC0D678)
